@@ -13,6 +13,7 @@
 .header-link:hover {
   color: lightseagreen;
   background-color: white;
+  text-decoration: none;
 }
 
 #welcome-section {

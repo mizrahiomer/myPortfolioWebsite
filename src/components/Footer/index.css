@@ -1,0 +1,34 @@
+.footer-wrapper {
+  background-color: #252934;
+  min-height: 130px;
+  height: auto;
+}
+
+.icon-social-link {
+  color: white;
+  font-size: 35px;
+}
+
+.icon-social-link:hover {
+  color: #20d18d;
+}
+
+.footer-text {
+  color: white;
+}
+
+.padding-footer-row {
+  padding-bottom: 20px;
+}
+
+.arrow-scroll-up {
+  color: #20d18d;
+}
+
+.arrow-scroll-up:hover {
+  color: #178b55;
+}
+
+.margin-top-footer {
+  margin-top: -4%;
+}
