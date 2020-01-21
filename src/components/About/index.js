@@ -23,7 +23,7 @@ function About() {
             <a
               target='_blang'
               className='cta-btn cta-btn--resume'
-              href='https://drive.google.com/file/d/1y5fpdAroCkYx__S0HuiHSiNa_BRgJz-C/view?usp=sharing'
+              href='https://drive.google.com/file/d/1QmQopt9k1aFiORTmBQwntyHxdcXqkU7N/view?usp=sharing'
             >
               View Resume
             </a>
