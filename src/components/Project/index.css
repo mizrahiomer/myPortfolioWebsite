@@ -1,0 +1,53 @@
+.project-title {
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  font-size: 2.3em;
+  text-align: left;
+}
+
+.project-text {
+  text-align: left;
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.websiteBtn {
+  color: #30c9b4;
+  border: 2px solid #30c9b4;
+  transition: 1s;
+  display: inline-block;
+  position: relative;
+  border-radius: 0.5em;
+  padding: 0.7em;
+  font-weight: 700;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+  margin: 1.5em 0.5em;
+}
+.websiteBtn:hover {
+  color: #fff;
+  background: #30c9b4;
+  text-decoration: none;
+  transform: scale(1.07);
+}
+
+.project-img {
+  border-radius: 0.5em;
+  max-width: 100%;
+  box-shadow: 0 5px 15px #3f4442;
+  border: 0.15em solid #3f4442;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .project-title {
+    text-align: center;
+    font-size: 1.7em;
+  }
+
+  .project-text {
+    text-align: center;
+  }
+  .websiteBtn {
+    margin: 0em 0.5em 1.5em 0.5em;
+    font-size: 0.85em;
+  }
+}

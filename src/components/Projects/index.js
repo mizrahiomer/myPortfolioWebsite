@@ -1,126 +1,69 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
-import TodoList from '../../assets/todolist.png';
-import Saida from '../../assets/saida.png';
-import Tilt from 'react-tilt';
+import Project from '../Project';
+import TodoList from '../../assets/todolist.gif';
+import Tictactoe from '../../assets/tictactoe.gif';
+import Saida from '../../assets/saida.gif';
 import './index.css';
 
-function Projects() {
+const Projects = () => {
+  const todolistDesc =
+    'A simple todo list app built using React and Redux, this web app allows to create a list of tasks with custom categories. The app is adapted for large screen size as well as for mobile screen size. All data is saved to local storage. You can leave the site at anytime, then back in and your tasks will still be there!';
+  const tictactoeDesc =
+    'Tic tac toe app built using React and React Hooks, play the classic tic tac toe game with a modern design and cool effects!. The results history is saved to firebase Realtime Database. The app is adapted for large screen size as well as for mobile screen size';
+  const saidaDesc =
+    'An employee management system built as part of a workshop. The system helps managers and employees control key work processes efficiently and improve communication and documentation among employees. In addition, the system is interfacing with the Google Calendar and Google Maps API to improve daily routine processes. In order to connect please enter the following credentials: ';
+
+  const saidaCred = (
+    <span>
+      <b>Admin:</b>
+      <br />
+      Username: omer@omer.com
+      <br />
+      Password: 111111113
+      <br />
+      <b>User:</b>
+      <br />
+      Username : chen@chen.com
+      <br />
+      Password: 111111119
+    </span>
+  );
   return (
-    <div id='projects'>
+    <div className='projects'>
       <div className='container-fluid'>
-        <h2 className='projects-section-title'>Projects</h2>
-        <div className='row margin-bottom-30'>
-          <div className='col'></div>
-          <div className='col-lg-4 col-sm-12'>
-            <Fade left>
-              <div className='project-wrapper__text'>
-                <h3 className='project-wrapper-text-title'>Todo list</h3>
-                <div>
-                  <p className='mb-4 project-text'>
-                    A simple todo list app built using React and Redux, this web
-                    app allows to create a list of to-dos with custom
-                    categories. The app is adapted for large screen size as well
-                    as for mobile screen size.
-                    <br></br>The to-dos are saved to local storage. You can
-                    leave the site at anytime, then back in and your to-dos will
-                    still be there!
-                  </p>
-                  <p className='p-text-left'>
-                    <a
-                      href='https://mizrahiomer.github.io/todolist/'
-                      target='_blang'
-                      className='cta-btn--website'
-                    >
-                      View Website
-                    </a>
-                    <a
-                      href='https://github.com/mizrahiomer/todolist'
-                      target='_blang'
-                      className='cta-btn--website'
-                    >
-                      Source Code
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </Fade>
-          </div>
-          <div className='col-lg-7 col-sm-12'>
-            <Fade right>
-              <Tilt className='Tilt' options={{ max: 25 }}>
-                <div className='Tilt-inner gif-wrapper'>
-                  <img src={TodoList} alt='todolist' className='project-gif' />
-                </div>
-              </Tilt>
-            </Fade>
-          </div>
-        </div>
-        <div className='row margin-bottom-30'>
-          <div className='col'></div>
-          <div className='col-lg-4 col-sm-12'>
-            <Fade left>
-              <div className='project-wrapper__text'>
-                <h3 className='project-wrapper-text-title'>
-                  Saida - BackOffice
-                </h3>
-                <div>
-                  <p className='mb-4 project-text'>
-                    An employee management system built as part of a workshop.
-                    The system helps managers and employees control key work
-                    processes efficiently and improve communication and
-                    documentation among employees. In addition, the system is
-                    interfacing with the Google Calendar and Google Maps API to
-                    improve daily routine processes.
-                    <br />
-                    <br />
-                    In order to connect please enter the following credentials:
-                    <br />
-                    <b>Admin:</b>
-                    <br />
-                    username: omer@omer.com
-                    <br />
-                    password: 111111113
-                    <br />
-                    <b>User:</b>
-                    <br />
-                    username : chen@chen.com
-                    <br />
-                    password: 111111119
-                  </p>
-                  <p className='p-text-left'>
-                    <a
-                      href='https://maorke.mtacloud.co.il/saida/'
-                      target='_blang'
-                      className='cta-btn--website'
-                    >
-                      View Website
-                    </a>
-                    <a
-                      href='https://github.com/mizrahiomer/saida'
-                      target='_blang'
-                      className='cta-btn--website'
-                    >
-                      Source Code
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </Fade>
-          </div>
-          <div className='col-lg-7 col-sm-12'>
-            <Fade right>
-              <Tilt className='Tilt' options={{ max: 25 }}>
-                <div className='Tilt-inner gif-wrapper'>
-                  <img src={Saida} alt='saida' className='project-gif' />
-                </div>
-              </Tilt>
-            </Fade>
-          </div>
-        </div>
+        <h2 className='projects-title'>Projects</h2>
+        <Project
+          desc={todolistDesc}
+          img={TodoList}
+          website={'https://mizrahiomer.github.io/todolist/'}
+          source={'https://github.com/mizrahiomer/todolist'}
+          title={'Todo list'}
+        />
+        <Project
+          desc={tictactoeDesc}
+          img={Tictactoe}
+          website={'https://mizrahiomer.github.io/tictactoe/'}
+          source={'https://github.com/mizrahiomer/tictactoe'}
+          title={'Tic tac toe'}
+        />
+        <Project
+          desc={saidaDesc}
+          img={Saida}
+          website={'https://maorke.mtacloud.co.il/saida/'}
+          source={'https://github.com/mizrahiomer/saida'}
+          title={'Saida - BackOffice'}
+          cred={saidaCred}
+        />
       </div>
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        viewBox='0 0 100 100'
+        preserveAspectRatio='none'
+      >
+        <polygon fill='#252934' points='100,100 0,100 0,0' />
+      </svg>
     </div>
   );
-}
+};
 
 export default Projects;

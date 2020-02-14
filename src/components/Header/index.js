@@ -1,27 +1,27 @@
 import React from 'react';
 import './index.css';
 
-function Header() {
+const Header = () => {
   return (
     <div id='header' className='header-section'>
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
-      <div id='title'>
+      <div className='stars'></div>
+      <div className='stars2'></div>
+      <div className='stars3'></div>
+      <div className='header-title'>
         <div className='header-text'>
-          <h1 id='opening-text'>
+          <h1 className='opening-text'>
             Hi, my name is{' '}
             <span className='name-text-color'> Omer Mizrahi</span>
             <br />
-            I'm a Frontend Developer that specializes in React
+            I'm a frontend developer who specialises in React
           </h1>
-          <a className='header-link' href='#about'>
+          <a className='headerBtn' href='#about'>
             See More
           </a>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Header;

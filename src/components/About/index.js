@@ -2,33 +2,30 @@ import React from 'react';
 import MyImg from '../../assets/myImg.jpg';
 import './index.css';
 
-function About() {
+const About = () => {
   return (
     <div id='about' className='about-wrapper'>
       <div className='container'>
-        <h2 className='about-section-title'>About Me</h2>
+        <h2 className='about-title'>About Me</h2>
         <div className='row'>
-          <div className='col-12 col-md-7 about-text'>
+          <div className='col-12 col-md-8 about-text'>
             <p>
-              Hi, my name is Omer Mizrahi, and I'm self thought JavaScript
-              developer.
-            </p>
-            <p>
-              I have a BSc in Information Systems and specialize mainly in
-              React. love to tackle challenges and unknown areas and I believe
-              that my fast learning capabilities, creativity and the ability to
-              manage multiple projects at a time will set me up for both
-              individual success and corporate productivity from day one.
+              My name is Omer Mizrahi and I'm a self taught frontend developer
+              who specialises in mainly React. I am a recent graduate with a BSc
+              in Information Systems. Love to tackle challenges and unknown
+              areas and I believe that together with my multitasking
+              capabilities, fast learning skills and creative mind, those will
+              set me up for both company and individual success from day one.
             </p>
             <a
               target='_blang'
-              className='cta-btn cta-btn--resume'
-              href='https://drive.google.com/file/d/1QmQopt9k1aFiORTmBQwntyHxdcXqkU7N/view?usp=sharing'
+              className='resumeBtn'
+              href='https://drive.google.com/file/d/1suE6dTKfUfyVV4ns-YqgkwTloNFzQCWo/view?usp=sharing'
             >
               View Resume
             </a>
           </div>
-          <div className='col-12 col-md-5'>
+          <div className='col-12 col-md-4'>
             <img
               className='my-img '
               src={MyImg}
@@ -42,9 +39,11 @@ function About() {
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 100 100'
         preserveAspectRatio='none'
-      ></svg>
+      >
+        <polygon fill='#E0F6FD' points='100 ,100 0,100 0,0' />
+      </svg>
     </div>
   );
-}
+};
 
 export default About;
