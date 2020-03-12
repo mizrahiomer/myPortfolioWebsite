@@ -8,7 +8,7 @@ const About = () => {
       <div className='container'>
         <h2 className='about-title'>About Me</h2>
         <div className='row'>
-          <div className='col-12 col-md-8 about-text'>
+          <div className='col-12 col-lg-7 about-text'>
             <p>
               My name is Omer Mizrahi and I'm a self taught frontend developer
               who specialises in mainly React. I am a recent graduate with a BSc
@@ -17,15 +17,8 @@ const About = () => {
               capabilities, fast learning skills and creative mind, those will
               set me up for both company and individual success from day one.
             </p>
-            <a
-              target='_blang'
-              className='resumeBtn'
-              href='https://drive.google.com/file/d/1suE6dTKfUfyVV4ns-YqgkwTloNFzQCWo/view?usp=sharing'
-            >
-              View Resume
-            </a>
           </div>
-          <div className='col-12 col-md-4'>
+          <div className='col-12 col-lg-4'>
             <img
               className='my-img '
               src={MyImg}
@@ -33,6 +26,13 @@ const About = () => {
               width='300'
             />
           </div>
+          <a
+            target='_blang'
+            className='resumeBtn'
+            href='https://drive.google.com/file/d/1_x1Qm3gqoJimERHfWmUPX7ADvb0PoQ8R/view?usp=sharing'
+          >
+            View Resume
+          </a>
         </div>
       </div>
       <svg

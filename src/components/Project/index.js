@@ -5,8 +5,7 @@ import './index.css';
 const Project = ({ title, desc, website, source, img, cred }) => {
   return (
     <div className='row my-5'>
-      <div className='col'></div>
-      <div className='col-lg-5 col-sm-12'>
+      <div className='col-lg-4 col-sm-12'>
         <Fade left>
           <h3 className='project-title'>{title}</h3>
           <div>
