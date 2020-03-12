@@ -4,8 +4,8 @@ import './index.css';
 
 const Project = ({ title, desc, website, source, img, cred }) => {
   return (
-    <div className='row my-5'>
-      <div className='col-lg-4 col-sm-12'>
+    <div className='row my-5 px-3'>
+      <div className='col-lg-6 col-sm-12'>
         <Fade left>
           <h3 className='project-title'>{title}</h3>
           <div>
@@ -26,7 +26,7 @@ const Project = ({ title, desc, website, source, img, cred }) => {
       </div>
       <div className='col-lg-6 col-sm-12'>
         <Fade right>
-          <img src={img} alt='todolist' className='project-img' />
+          <img src={img} alt='img' className='project-img' />
         </Fade>
       </div>
     </div>
