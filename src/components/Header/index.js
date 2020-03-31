@@ -10,10 +10,10 @@ const Header = () => {
       <div className='header-title'>
         <div className='header-text'>
           <h1 className='opening-text'>
-            Hi, my name is{' '}
+            Hi, my name is
             <span className='name-text-color'> Omer Mizrahi</span>
             <br />
-            I'm a frontend developer who specialises in React
+            I'm a frontend developer who specializes in React
           </h1>
           <a className='headerBtn' href='#about'>
             See More

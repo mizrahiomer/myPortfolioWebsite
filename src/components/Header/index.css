@@ -23,11 +23,10 @@
   font-weight: 700;
 }
 .header-title {
-  padding-top: 13em;
+  padding-top: 10em;
   justify-content: center;
   color: #fff;
   text-align: center;
-  font-weight: 300;
 }
 
 .header-text {
@@ -57,17 +56,14 @@
   }
 }
 @media only screen and (max-width: 786px) {
-  /* For mobile phones: */
   .opening-text {
     font-size: 2em;
   }
-
   .header-text {
     width: 90%;
   }
-
   .title {
-    top: 40%;
+    padding-top: 5em;
   }
 }
 

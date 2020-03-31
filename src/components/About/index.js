@@ -8,10 +8,10 @@ const About = () => {
       <div className='container'>
         <h2 className='about-title'>About Me</h2>
         <div className='row'>
-          <div className='col-12 col-lg-7 about-text'>
+          <div className='col-12 col-lg-8 about-text'>
             <p>
-              My name is Omer Mizrahi and I'm a self taught frontend developer
-              who specialises in mainly React. I am a recent graduate with a BSc
+              My name is Omer Mizrahi and I'm a self taught front-end developer
+              who specializes mainly in React. I am a recent graduate with a BSc
               in Information Systems. Love to tackle challenges and unknown
               areas and I believe that together with my multitasking
               capabilities, fast learning skills and creative mind, those will
