@@ -18,9 +18,14 @@ const Header = () => {
 					</h1>
 					<Pulse forever>
 						<div>
-							<a className='headerBtn' href='#about'>
+							<div
+								className='headerBtn'
+								onClick={() => {
+									document.getElementById('about').scrollIntoView();
+								}}
+							>
 								<i className='fa fa-angle-double-down'></i>
-							</a>
+							</div>
 						</div>
 					</Pulse>
 				</div>

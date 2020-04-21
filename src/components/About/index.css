@@ -1,11 +1,6 @@
-.my-img {
-	height: auto;
-	border-radius: 0.5em;
-	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.my-img:hover {
-	transform: scale(1.05);
+.about-wrapper {
+	background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
+	min-height: 40vh;
 }
 
 .about-title {
@@ -15,22 +10,43 @@
 	padding: 0.5em 0;
 }
 
-.about-wrapper {
-	background-image: url('../../assets/aboutBg.jpg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 35vh;
+.about-content {
+	display: flex;
+	padding: 0 2em;
+}
+
+.about-img-container {
+	margin: 0 auto;
+}
+
+.about-img {
+	border: 0.2em solid white;
+	border-radius: 100%;
+	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.about-img:hover {
+	transform: scale(1.03);
 }
 
 .about-text {
 	text-align: left;
 	color: white;
 	font-size: 1.3em;
-	margin-bottom: 1.5em;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
+.about-content > .about-img-container {
+	flex: 1;
+}
+
+.about-img-container > .about-img {
+	max-width: 90%;
+}
+.about-content > .about-text {
+	flex: 2.3;
+	margin: auto 0.5em;
+}
 .resumeBtn {
 	color: #fff;
 	border-radius: 0.5em;
@@ -46,21 +62,27 @@
 }
 
 .resumeBtn:hover {
-	color: #c52dda;
+	color: #272341;
 	transform: scale(1.05);
-	background-position: top left;
-	background-color: white;
+	background: rgba(255, 255, 255, 0.9);
 	text-decoration: none;
 }
 @media only screen and (max-width: 768px) {
 	.about-text {
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 	.about-title {
 		font-size: 2.5em;
-		padding: 0.5em 0;
+		padding: 0.2em 0;
 	}
 	.resumeBtn {
-		margin: 2em auto;
+		margin: 1.5em auto;
+	}
+	.about-img-container {
+		max-width: 70%;
+	}
+	.about-content {
+		display: block;
+		padding: 0 0.5em;
 	}
 }

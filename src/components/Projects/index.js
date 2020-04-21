@@ -11,7 +11,7 @@ const Projects = () => {
 				{data.porjects.map(project => (
 					<Project
 						desc={project.description}
-						img={require(`../../assets/${project.image}`)}
+						video={require(`../../assets/${project.video}`)}
 						website={project.website}
 						source={project.source}
 						title={project.title}
