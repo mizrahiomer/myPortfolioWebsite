@@ -3,14 +3,13 @@
 	height: 100vh;
 	align-items: center;
 	background: #fff;
-	font-weight: 400;
 	color: #272341;
 	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
 .headerBtn {
 	color: #fff;
-	font-size: 3.5em;
+	font-size: 3em;
 	z-index: 1;
 	cursor: pointer;
 	display: inline-block;
@@ -52,7 +51,7 @@
 }
 @media only screen and (max-width: 786px) {
 	.opening-text {
-		font-size: 2em;
+		font-size: 1.8em;
 	}
 	.header-text {
 		width: 90%;

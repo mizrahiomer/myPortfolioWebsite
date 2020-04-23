@@ -16,7 +16,7 @@ const Footer = () => {
 								document.getElementById('header').scrollIntoView();
 							}}
 						>
-							<i className='fa fa-angle-double-up icon'></i>
+							<i className='fa fa-angle-up icon'></i>
 						</div>
 					</div>
 					<div className='col'></div>

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
+import { ClipLoader } from 'react-spinners';
 import './index.css';
 
 const Project = ({ title, desc, website, source, video, credentials }) => {
+	const [loading, setLoading] = useState(true);
 	return (
 		<div className='row my-5 px-3'>
 			<div className='col-lg-6 '>
@@ -57,9 +59,10 @@ const Project = ({ title, desc, website, source, video, credentials }) => {
 				</Fade>
 			</div>
 			<div className='col-lg-6'>
+				{loading ? <ClipLoader /> : null}
 				<Fade right>
-					<video loop muted autoPlay className='project-video'>
-						<source src={video}></source>
+					<video loop muted autoPlay className='project-video' onCanPlay={() => setLoading(false)}>
+						><source src={video}></source>
 					</video>
 				</Fade>
 			</div>

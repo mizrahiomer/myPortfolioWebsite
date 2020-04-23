@@ -14,7 +14,7 @@ const Header = () => {
 						Hi, my name is
 						<span className='name-text-color'> Omer Mizrahi</span>
 						<br />
-						I'm a frontend developer who specializes in React
+						I'm a Full stack developer who specializes in React and Node.js
 					</div>
 					<Pulse forever>
 						<div
@@ -23,7 +23,7 @@ const Header = () => {
 								document.getElementById('about').scrollIntoView();
 							}}
 						>
-							<i className='fa fa-angle-double-down'></i>
+							<i className='fa fa-angle-down'></i>
 						</div>
 					</Pulse>
 				</div>
