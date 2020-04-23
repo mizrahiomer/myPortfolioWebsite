@@ -11,7 +11,7 @@ const About = () => {
 					I'm a passionate and enthusiastic about web app development. I always place UI/UX as high
 					priority. I believe that design is the most valuable component on any project! I embrace
 					challenges and enjoy coming with innovative ways to solve them. I take pride being
-					self-taught, self-motivated with can do attitude.
+					self-taught, self-motivated and not afraid to fail.
 					<a
 						target='_blang'
 						className='resumeBtn'

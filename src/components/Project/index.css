@@ -4,10 +4,10 @@
 	font-size: 2.3em;
 	text-align: left;
 }
-.credential {
+.credentials {
 	margin: 0.5em auto;
 }
-.credential-type {
+.credentials-type {
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -42,6 +42,26 @@
 	box-shadow: 0 5px 15px #3f4442;
 	border: 0.15em solid #3f4442;
 }
+
+.copy-text {
+	padding-left: 0.5em;
+}
+.copy-icon {
+	cursor: pointer;
+	padding-left: 0.5em;
+	font-size: 1.3em;
+	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.copy-icon:hover {
+	color: #30c9b4;
+	transform: scale(1.1);
+}
+.credentials input {
+	opacity: 0;
+	width: 1%;
+	cursor: default;
+}
+
 @media only screen and (max-width: 768px) {
 	.project-title {
 		text-align: center;

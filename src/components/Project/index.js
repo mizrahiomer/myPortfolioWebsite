@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
-import ClipLoader from 'react-spinners/ClipLoader';
 import './index.css';
 
 const Project = ({ title, desc, website, source, video, credentials }) => {
-	const [loading, setLoading] = useState(true);
 	return (
 		<div className='row my-5 px-3'>
 			<div className='col-lg-6 '>
@@ -17,10 +15,32 @@ const Project = ({ title, desc, website, source, video, credentials }) => {
 							{credentials
 								? credentials.map(credential => {
 										return (
-											<div className='credential' key={credential.type}>
-												<div className='credential-type'>{credential.type}</div>
-												<div>Username: {credential.username}</div>
-												<div>Password: {credential.password}</div>
+											<div className='credentials' key={credential.type}>
+												<div className='credentials-type'>{credential.type}</div>
+												<b>Username:</b>
+												<span className='copy-text'>{credential.username}</span>
+												<i
+													onClick={() => {
+														document.getElementById(credential.username).select();
+														document.execCommand('copy');
+													}}
+													className='fa fa-clipboard copy-icon'
+												></i>
+												<input defaultValue={credential.username} id={credential.username} />
+												<br />
+												<b>Password:</b>
+
+												<span className='copy-text'>{credential.password}</span>
+
+												<i
+													className='fa fa-clipboard copy-icon'
+													onClick={() => {
+														document.getElementById(credential.password).select();
+														document.execCommand('copy');
+													}}
+												></i>
+
+												<input defaultValue={credential.password} id={credential.password} />
 											</div>
 										);
 								  })
@@ -38,7 +58,7 @@ const Project = ({ title, desc, website, source, video, credentials }) => {
 			</div>
 			<div className='col-lg-6'>
 				<Fade right>
-					<video loop autoPlay className='project-video'>
+					<video loop muted autoPlay className='project-video'>
 						<source src={video}></source>
 					</video>
 				</Fade>

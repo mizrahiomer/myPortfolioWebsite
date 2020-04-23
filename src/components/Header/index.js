@@ -10,22 +10,20 @@ const Header = () => {
 			<div className='stars3'></div>
 			<div className='header-title'>
 				<div className='header-text'>
-					<h1 className='opening-text'>
+					<div className='opening-text'>
 						Hi, my name is
 						<span className='name-text-color'> Omer Mizrahi</span>
 						<br />
 						I'm a frontend developer who specializes in React
-					</h1>
+					</div>
 					<Pulse forever>
-						<div>
-							<div
-								className='headerBtn'
-								onClick={() => {
-									document.getElementById('about').scrollIntoView();
-								}}
-							>
-								<i className='fa fa-angle-double-down'></i>
-							</div>
+						<div
+							className='headerBtn'
+							onClick={() => {
+								document.getElementById('about').scrollIntoView();
+							}}
+						>
+							<i className='fa fa-angle-double-down'></i>
 						</div>
 					</Pulse>
 				</div>
