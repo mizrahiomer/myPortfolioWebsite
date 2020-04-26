@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import { ClipLoader } from 'react-spinners';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 import './index.css';
 
 const Project = ({ title, desc, website, source, video, credentials }) => {
@@ -19,30 +20,18 @@ const Project = ({ title, desc, website, source, video, credentials }) => {
 										return (
 											<div className='credentials' key={credential.type}>
 												<div className='credentials-type'>{credential.type}</div>
-												<b>Username:</b>
+												<span className='credentials-title'>Username:</span>
 												<span className='copy-text'>{credential.username}</span>
-												<i
-													onClick={() => {
-														document.getElementById(credential.username).select();
-														document.execCommand('copy');
-													}}
-													className='fa fa-clipboard copy-icon'
-												></i>
-												<input defaultValue={credential.username} id={credential.username} />
+												<CopyToClipboard text={credential.username}>
+													<i className='fa fa-clipboard copy-icon'></i>
+												</CopyToClipboard>
+
 												<br />
-												<b>Password:</b>
-
+												<span className='credentials-title'>Password:</span>
 												<span className='copy-text'>{credential.password}</span>
-
-												<i
-													className='fa fa-clipboard copy-icon'
-													onClick={() => {
-														document.getElementById(credential.password).select();
-														document.execCommand('copy');
-													}}
-												></i>
-
-												<input defaultValue={credential.password} id={credential.password} />
+												<CopyToClipboard text={credential.password}>
+													<i className='fa fa-clipboard copy-icon'></i>
+												</CopyToClipboard>
 											</div>
 										);
 								  })

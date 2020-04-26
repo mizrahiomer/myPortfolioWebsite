@@ -8,14 +8,14 @@ const About = () => {
 			<h2 className='about-title'>About Me</h2>
 			<div className='about-content'>
 				<div className='about-text'>
-					I'm a passionate and enthusiastic about web app development. I always place UI/UX as high
-					priority. I believe that design is the most valuable component on any project! I embrace
-					challenges and enjoy coming with innovative ways to solve them. I take pride being
-					self-taught, self-motivated and not afraid to fail.
+					I'm passionate and enthusiastic about web app development and always place UI/UX as high
+					priority. I believe that design is the most valuable component on any project. I’m a team
+					player who embraces challenges and enjoys coming with innovative ways to solve them. I
+					take pride in being self-taught, self-motivated and not afraid to fail.
 					<a
 						target='_blang'
 						className='resumeBtn'
-						href='https://drive.google.com/file/d/1_x1Qm3gqoJimERHfWmUPX7ADvb0PoQ8R/view?usp=sharing'
+						href='https://drive.google.com/open?id=1nUb0tj_W8evKqzXlR9zGt-ybnMM96IKY'
 					>
 						View Resume <i className='fa fa-address-card'></i>
 					</a>

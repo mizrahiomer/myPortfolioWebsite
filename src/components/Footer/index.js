@@ -42,17 +42,17 @@ const Footer = () => {
 				</div>
 				<div className='row social-links'>
 					<div className='col'></div>
-					<div className='col-2'>
+					<div className='col-3 col-md-2'>
 						<a target='_blang' href='https://www.facebook.com/omer.mizrahi5'>
 							<i className='fa fa-facebook icon'></i>
 						</a>
 					</div>
-					<div className='col-2'>
+					<div className='col-3 col-md-2'>
 						<a href='https://www.linkedin.com/in/omer-mizrahi-473808153/' target='_blang'>
 							<i className='fa fa-linkedin icon'></i>
 						</a>
 					</div>
-					<div className='col-2'>
+					<div className='col-3 col-md-2'>
 						<a href='https://github.com/mizrahiomer' target='_blang'>
 							<i className='fa fa-github icon'></i>
 						</a>
