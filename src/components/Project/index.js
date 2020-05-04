@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import { ClipLoader } from 'react-spinners';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import './index.css';
+import './index.scss';
 
 const Project = ({ title, desc, website, source, video, credentials }) => {
 	const [loading, setLoading] = useState(true);

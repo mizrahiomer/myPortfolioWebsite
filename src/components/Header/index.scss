@@ -1,19 +1,15 @@
-.logo {
-	opacity: 1;
-	transform: translate3d(0px, 0px, 0px), scale3d(1, 1, 1), rotateX(0deg), rotateY(0deg),
-		rotateZ(0deg), skew(0deg, 0deg);
-	transform-style: preserve-3d;
-	max-width: 50%;
-	margin: 2em auto;
-}
+$primary: #257fd3;
 
 .header-section {
 	min-height: 100vh;
 	height: 100vh;
 	align-items: center;
 	background: #fff;
-	color: #272341;
-	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #2f293b 100%);
+}
+.myLogo {
+	width: 4em;
+	padding: 0.5em;
 }
 
 .headerBtn {
@@ -26,7 +22,7 @@
 }
 
 .headerBtn:hover {
-	color: #30c9b4;
+	color: $primary;
 	transform: scale(1.05);
 }
 
@@ -36,7 +32,7 @@
 }
 
 .header-title {
-	padding-top: 10em;
+	padding-top: 8em;
 	justify-content: center;
 	color: #fff;
 	text-align: center;
@@ -47,7 +43,7 @@
 	margin: 0 auto;
 }
 .name-text-color {
-	color: #30c9b4;
+	color: $primary;
 }
 
 @keyframes animStar {
@@ -66,7 +62,7 @@
 		width: 90%;
 	}
 	.title {
-		padding-top: 5em;
+		padding-top: 4em;
 	}
 	.headerBtn {
 		font-size: 3em;

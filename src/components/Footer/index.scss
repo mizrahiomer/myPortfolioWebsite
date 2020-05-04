@@ -1,7 +1,10 @@
+$primary: #257fd3;
+
 .footer-wrapper {
 	background-color: #252934;
 	min-height: 130px;
 	color: #fff;
+	text-align: center;
 	height: auto;
 }
 .footer-text {
@@ -20,7 +23,7 @@
 }
 
 .icon:hover {
-	color: #30c9b4;
+	color: $primary;
 	transform: scale(1.1);
 }
 .footer-contact {
@@ -31,7 +34,7 @@
 	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .footer-contact:hover {
-	color: #30c9b4;
+	color: $primary;
 	text-decoration: none;
 	transform: scale(1.02);
 }

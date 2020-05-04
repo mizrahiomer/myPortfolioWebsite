@@ -1,5 +1,6 @@
 import React from 'react';
-import './index.css';
+import Bounce from 'react-reveal/Bounce';
+import './index.scss';
 
 const Footer = () => {
 	const sendMail = e => {
@@ -21,6 +22,7 @@ const Footer = () => {
 					</div>
 					<div className='col'></div>
 				</div>
+
 				<div className='row'>
 					<div className='col'></div>
 					<div className='col-md-5 col-sm-12 footer-text'>
@@ -40,25 +42,28 @@ const Footer = () => {
 					</div>
 					<div className='col'></div>
 				</div>
-				<div className='row social-links'>
-					<div className='col'></div>
-					<div className='col-3 col-md-2'>
-						<a target='_blang' href='https://www.facebook.com/omer.mizrahi5'>
-							<i className='fa fa-facebook icon'></i>
-						</a>
+
+				<Bounce cascade>
+					<div className='row social-links'>
+						<div className='col'></div>
+						<div className='col-3 col-md-2'>
+							<a target='_blang' href='https://www.facebook.com/omer.mizrahi5'>
+								<i className='fa fa-facebook icon'></i>
+							</a>
+						</div>
+						<div className='col-3 col-md-2'>
+							<a href='https://www.linkedin.com/in/omer-mizrahi-473808153/' target='_blang'>
+								<i className='fa fa-linkedin icon'></i>
+							</a>
+						</div>
+						<div className='col-3 col-md-2'>
+							<a href='https://github.com/mizrahiomer' target='_blang'>
+								<i className='fa fa-github icon'></i>
+							</a>
+						</div>
+						<div className='col'></div>
 					</div>
-					<div className='col-3 col-md-2'>
-						<a href='https://www.linkedin.com/in/omer-mizrahi-473808153/' target='_blang'>
-							<i className='fa fa-linkedin icon'></i>
-						</a>
-					</div>
-					<div className='col-3 col-md-2'>
-						<a href='https://github.com/mizrahiomer' target='_blang'>
-							<i className='fa fa-github icon'></i>
-						</a>
-					</div>
-					<div className='col'></div>
-				</div>
+				</Bounce>
 			</div>
 		</div>
 	);

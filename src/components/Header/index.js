@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import Pulse from 'react-reveal/Pulse';
-import './index.css';
 import Typist from 'react-typist';
+import Logo from '../../assets/Logo2.png';
+import './index.scss';
 
 const Header = () => {
 	const [show, setShow] = useState(false);
 
 	return (
 		<div id='header' className='header-section'>
+			<img className='myLogo' alt='My Logo' src={Logo} />
 			<div className='stars'></div>
 			<div className='stars2'></div>
 			<div className='stars3'></div>

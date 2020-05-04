@@ -1,13 +1,16 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import Project from '../Project';
 import data from '../../data.json';
-import './index.css';
+import './index.scss';
 
 const Projects = () => {
 	return (
 		<div className='projects'>
 			<div className='container-fluid'>
-				<h2 className='projects-title'>Projects</h2>
+				<Fade>
+					<h2 className='projects-title'>Projects</h2>
+				</Fade>
 				{data.porjects.map(project => (
 					<Project
 						desc={project.description}

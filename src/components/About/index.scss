@@ -1,5 +1,6 @@
 .about-wrapper {
-	background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
+	// background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
+	background: radial-gradient(ellipse at top, #1b2735 0%, #2f293b 100%);
 	min-height: 40vh;
 }
 
@@ -8,6 +9,7 @@
 	font-weight: 700;
 	color: white;
 	padding: 0.5em 0;
+	text-align: center;
 }
 
 .about-content {
@@ -26,7 +28,7 @@
 }
 
 .about-img:hover {
-	transform: scale(1.03);
+	transform: scale(1.05);
 }
 
 .about-text {
@@ -63,7 +65,7 @@
 
 .resumeBtn:hover {
 	color: #272341;
-	transform: scale(1.05);
+	transform: scale(1.02);
 	background: rgba(255, 255, 255, 0.9);
 	text-decoration: none;
 }
