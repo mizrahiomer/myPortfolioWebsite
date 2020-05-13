@@ -13,6 +13,7 @@ const Header = () => {
 		<div id='header' className='header'>
 			<div className='header__text'>
 				<Typed
+					startDelay={2000}
 					showCursor={false}
 					onComplete={() => {
 						setShow(true);
