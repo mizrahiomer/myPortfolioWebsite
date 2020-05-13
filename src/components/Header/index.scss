@@ -4,7 +4,6 @@ $bg: #f9f7f7;
 
 .header {
 	min-height: 100vh;
-	height: 100vh;
 	color: $primary;
 	text-align: center;
 	background: $bg;
@@ -55,7 +54,7 @@ $bg: #f9f7f7;
 		width: 90%;
 		letter-spacing: 0.15em;
 		text-align: left;
-		padding-top: 5em;
+		padding-top: 4.5em;
 	}
 
 	.header__btn {
