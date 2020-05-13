@@ -3,12 +3,13 @@ import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import './App.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 	return (
 		<div className='App'>
+			<Navbar />
 			<Header />
 			<About />
 			<Projects />

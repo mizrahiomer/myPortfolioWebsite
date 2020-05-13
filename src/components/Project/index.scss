@@ -1,92 +1,66 @@
-$primary: #257fd3;
+$primary: #f9f7f7;
+$secondary: #3f72af;
 
-.project-title {
+.project {
+	padding: 0.5em 0;
+}
+.project__title {
 	font-weight: 700;
 	margin-bottom: 0.5em;
-	font-size: 2.3em;
+	font-size: 1.7em;
 	text-align: left;
 }
-.credentials {
-	margin: 0.5em auto;
-}
-.credentials-title {
-	font-weight: 600;
-}
-.credentials-type {
-	text-transform: uppercase;
-	font-weight: 700;
-}
-.project-text {
+.project__text {
 	text-align: left;
-	font-size: 1.2em;
+	margin: 1.5em 0;
 	font-family: 'Montserrat', sans-serif;
 }
 
-.websiteBtn {
-	color: $primary;
-	border: 2px solid $primary;
-	transition: 1s;
-	display: inline-block;
-	position: relative;
-	border-radius: 0.5em;
-	padding: 0.7em;
-	font-weight: 700;
-	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-	margin: 1.5em 0.5em;
-}
-.websiteBtn:hover {
-	color: #fff;
-	background: $primary;
-	text-decoration: none;
-	transform: scale(1.07);
+.project__btns {
+	margin-top: 2em;
+	text-align: center;
 }
 
-.project-video {
+.project__btn {
+	color: $primary;
+	border: 0.12em solid $primary;
+	display: inline-block;
+	border-radius: 0.5em;
+	font-size: 0.9em;
+	padding: 0.6em;
+	font-weight: 600;
+	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+	margin: 0 0.2em;
+}
+.project__btn:hover {
+	color: $secondary;
+	background: $primary;
+	transform: scale(1.05);
+}
+
+.project__video {
 	border-radius: 0.5em;
 	max-width: 100%;
-	box-shadow: 0 5px 15px #3f4442;
-	border: 0.15em solid #3f4442;
-}
-
-.copy-text {
-	padding-left: 0.5em;
-}
-.copy-icon {
-	cursor: pointer;
-	padding-left: 0.5em;
-	font-size: 1.3em;
-	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-}
-.copy-icon:hover {
-	color: $primary;
-	transform: scale(1.1);
-}
-.credentials input {
-	opacity: 0;
-	width: 1%;
-	cursor: default;
+	box-shadow: 0.3em 0.3em 2em 0.4em rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 768px) {
-	.project-title {
-		text-align: center;
-		font-size: 1.9em;
+	.project {
+		display: block;
 	}
-	.websiteBtn {
-		margin: 1.2em 0.2em;
-		font-size: 0.8em;
+	.project__title {
+		font-size: 1.5em;
 	}
-	.copy-icon {
+	.project__text {
 		font-size: 1em;
-		padding-left: 0.2em;
+		margin: 1em 0;
 	}
-	.copy-text {
-		padding-left: 0.2em;
+	.project__btns {
+		margin: 1.5em 0;
+		text-align: center;
 	}
-	.credentials {
-		font-size: 0.85em;
-	}
-	.credentials-type {
-		font-size: 0.9em;
+	.project__btn {
+		margin: 0 0.5em;
+		font-size: 0.8em;
 	}
 }

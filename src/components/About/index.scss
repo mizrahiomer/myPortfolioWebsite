@@ -1,90 +1,68 @@
-.about-wrapper {
-	// background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
-	background: radial-gradient(ellipse at top, #1b2735 0%, #2f293b 100%);
-	min-height: 40vh;
+$primary: #3f4442;
+$bg: #dbe2ef;
+
+.about {
+	min-height: 100vh;
+	color: $primary;
+	background: $bg;
+	padding: 10em 4em 2em;
+	display: grid;
+	gap: 2em;
+	grid-template-columns: auto auto;
 }
 
-.about-title {
-	font-size: 3.5em;
-	font-weight: 700;
-	color: white;
-	padding: 0.5em 0;
-	text-align: center;
-}
-
-.about-content {
+.about__content {
 	display: flex;
-	padding: 1.7em;
+	flex-direction: column;
 }
 
-.about-img-container {
-	margin: 0 auto;
+.about__img__container {
 }
 
-.about-img {
-	border: 0.2em solid white;
-	border-radius: 100%;
+.about__img {
+	width: 17em;
+	max-width: 100%;
+	align-self: flex-end;
+	box-shadow: rgba(0, 0, 0, 0.75) 1em 1em 4em 0.1em;
+	border-radius: 0.5em;
 	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-.about-img:hover {
-	transform: scale(1.05);
-}
-
-.about-text {
-	text-align: left;
-	color: white;
+.about__text {
 	font-size: 1.3em;
+	text-align: left;
+	margin: 0.5em 0;
 	font-family: 'Montserrat', sans-serif;
 }
 
-.about-content > .about-img-container {
-	flex: 1;
+.about__tech {
+	text-align: center;
+	font-size: 3.5em;
+	margin-top: 0.5em;
 }
 
-.about-img-container > .about-img {
-	max-width: 90%;
-}
-.about-content > .about-text {
-	flex: 2.3;
-	margin: auto 0.5em;
-}
-.resumeBtn {
-	color: #fff;
-	border-radius: 0.5em;
-	font-family: 'Orbitron', sans-serif;
-	margin: 1.5em auto;
-	border: 0.1em solid #fff;
-	font-size: 0.8em;
-	display: block;
-	width: fit-content;
-	padding: 0.7em;
-	font-weight: 700;
-	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.resumeBtn:hover {
-	color: #272341;
-	transform: scale(1.02);
-	background: rgba(255, 255, 255, 0.9);
-	text-decoration: none;
-}
 @media only screen and (max-width: 768px) {
-	.about-text {
-		font-size: 1.1em;
-	}
-	.about-title {
-		font-size: 2.5em;
-		padding: 0.2em 0;
-	}
-	.resumeBtn {
-		margin: 1.5em auto;
-	}
-	.about-img-container {
-		max-width: 70%;
-	}
-	.about-content {
+	.about {
+		padding: 5em 2em 1em;
 		display: block;
-		padding: 0 0.5em;
+	}
+	.about__content {
+	}
+	.about__tech {
+		font-size: 2.5em;
+		text-align: center;
+		margin-bottom: 0.5em;
+		margin-top: 0;
+	}
+	.about__text {
+		text-align: left;
+		margin-right: 0;
+		font-size: 1em;
+	}
+	.about__img {
+		width: 12em;
+	}
+	.about__img__container {
+		text-align: center;
 	}
 }
