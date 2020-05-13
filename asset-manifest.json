@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.575d5818.chunk.css",
+    "main.css": "/static/css/main.b6f6dcf1.chunk.css",
     "main.js": "/static/js/main.8c20e0ed.chunk.js",
     "main.js.map": "/static/js/main.8c20e0ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
@@ -8,9 +8,9 @@
     "static/js/2.5c8cf459.chunk.js": "/static/js/2.5c8cf459.chunk.js",
     "static/js/2.5c8cf459.chunk.js.map": "/static/js/2.5c8cf459.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5e82aa497965ab773bc98debe715eff1.js": "/precache-manifest.5e82aa497965ab773bc98debe715eff1.js",
+    "precache-manifest.c6fb463822ad3c24d37931a859d69a36.js": "/precache-manifest.c6fb463822ad3c24d37931a859d69a36.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.575d5818.chunk.css.map": "/static/css/main.575d5818.chunk.css.map",
+    "static/css/main.b6f6dcf1.chunk.css.map": "/static/css/main.b6f6dcf1.chunk.css.map",
     "static/js/2.5c8cf459.chunk.js.LICENSE": "/static/js/2.5c8cf459.chunk.js.LICENSE",
     "static/media/Door2Dor.mp4": "/static/media/Door2Dor.3e6de5bb.mp4",
     "static/media/LogoDark.png": "/static/media/LogoDark.bb46aa41.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.c2b20a0b.js",
     "static/js/2.5c8cf459.chunk.js",
-    "static/css/main.575d5818.chunk.css",
+    "static/css/main.b6f6dcf1.chunk.css",
     "static/js/main.8c20e0ed.chunk.js"
   ]
 }
