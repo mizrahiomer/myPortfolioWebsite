@@ -1,7 +1,7 @@
 # React Portfolio App
 
-This is a website app built using React, this web summarizes my skills as a self-taught front-end developer.
-The app is designed with Bootstrap & CSS and use [react-reveal](https://www.react-reveal.com/) for animation.
+This is a website app built using React, this web summarizes my skills as a self-taught full stack web developer.
+The app is designed by me and using [react-reveal](https://www.react-reveal.com/) for animation.
 
 The app is adapted for large screen size as well as for mobile screen size.
 
