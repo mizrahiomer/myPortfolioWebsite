@@ -1,34 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e266839.chunk.css",
-    "main.js": "/static/js/main.b91f0662.chunk.js",
-    "main.js.map": "/static/js/main.b91f0662.chunk.js.map",
+    "main.css": "/static/css/main.575d5818.chunk.css",
+    "main.js": "/static/js/main.8c20e0ed.chunk.js",
+    "main.js.map": "/static/js/main.8c20e0ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.a37030bc.chunk.js": "/static/js/2.a37030bc.chunk.js",
-    "static/js/2.a37030bc.chunk.js.map": "/static/js/2.a37030bc.chunk.js.map",
+    "static/js/2.5c8cf459.chunk.js": "/static/js/2.5c8cf459.chunk.js",
+    "static/js/2.5c8cf459.chunk.js.map": "/static/js/2.5c8cf459.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d83e1e8c7ff41ae7ac8d6b02aa27d312.js": "/precache-manifest.d83e1e8c7ff41ae7ac8d6b02aa27d312.js",
+    "precache-manifest.5e82aa497965ab773bc98debe715eff1.js": "/precache-manifest.5e82aa497965ab773bc98debe715eff1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.2e266839.chunk.css.map": "/static/css/main.2e266839.chunk.css.map",
-    "static/js/2.a37030bc.chunk.js.LICENSE": "/static/js/2.a37030bc.chunk.js.LICENSE",
+    "static/css/main.575d5818.chunk.css.map": "/static/css/main.575d5818.chunk.css.map",
+    "static/js/2.5c8cf459.chunk.js.LICENSE": "/static/js/2.5c8cf459.chunk.js.LICENSE",
+    "static/media/Door2Dor.mp4": "/static/media/Door2Dor.3e6de5bb.mp4",
+    "static/media/LogoDark.png": "/static/media/LogoDark.bb46aa41.png",
     "static/media/myImg.JPEG": "/static/media/myImg.ecf9c844.JPEG",
-    "static/media/nba.gif": "/static/media/nba.4b68c5fc.gif",
-    "static/media/nba.mp4": "/static/media/nba.be509b8e.mp4",
-    "static/media/saida.mp4": "/static/media/saida.58df8b3b.mp4",
-    "static/media/saida.gif": "/static/media/saida.844e3529.gif",
-    "static/media/tictactoe.gif": "/static/media/tictactoe.02053bbb.gif",
-    "static/media/tictactoe.mp4": "/static/media/tictactoe.feed4bdc.mp4",
-    "static/media/todolist.mp4": "/static/media/todolist.0c6f2d77.mp4",
-    "static/media/todolist.gif": "/static/media/todolist.40583b10.gif"
+    "static/media/nba.mp4": "/static/media/nba.e2e9505b.mp4",
+    "static/media/saida.mp4": "/static/media/saida.17d9929c.mp4",
+    "static/media/tictactoe.mp4": "/static/media/tictactoe.27a64712.mp4",
+    "static/media/todolist.mp4": "/static/media/todolist.1c3eb4a9.mp4",
+    "static/media/workoutStar.mp4": "/static/media/workoutStar.cb92ed63.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.c2b20a0b.js",
-    "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.a37030bc.chunk.js",
-    "static/css/main.2e266839.chunk.css",
-    "static/js/main.b91f0662.chunk.js"
+    "static/js/2.5c8cf459.chunk.js",
+    "static/css/main.575d5818.chunk.css",
+    "static/js/main.8c20e0ed.chunk.js"
   ]
 }
