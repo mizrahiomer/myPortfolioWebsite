@@ -13,7 +13,7 @@ const Header = () => {
 		<div id='header' className='header'>
 			<div className='header__text'>
 				<Typed
-					startDelay={2000}
+					startDelay={2500}
 					showCursor={false}
 					onComplete={() => {
 						setShow(true);
@@ -41,7 +41,7 @@ const Header = () => {
 
 			{show && (
 				<Pulse forever>
-					<Link className='header__btn' to='about' spy={true} smooth={true} duration={300}>
+					<Link className='header__btn' to='about' spy={true} smooth={true} duration={400}>
 						<i className='fa fa-angle-down'></i>
 					</Link>
 				</Pulse>

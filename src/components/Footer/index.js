@@ -9,7 +9,7 @@ const Footer = () => {
 	return (
 		<div id='footer' className='footer'>
 			<Fade>
-				<Link className='footer__btn' to='header' spy={true} smooth={true} duration={300}>
+				<Link className='footer__btn' to='header' spy={true} smooth={true} duration={400}>
 					<i className='fa fa-angle-up icon'></i>
 				</Link>
 				<div className='footer__title'>Contact Me</div>

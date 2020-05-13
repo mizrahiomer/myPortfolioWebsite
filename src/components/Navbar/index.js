@@ -31,7 +31,7 @@ const Navbar = () => {
 				to='about'
 				spy={true}
 				smooth={true}
-				duration={300}
+				duration={400}
 			>
 				About
 			</Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
 				to='projects'
 				spy={true}
 				smooth={true}
-				duration={300}
+				duration={400}
 			>
 				Projects
 			</Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
 				to='footer'
 				smooth={true}
 				spy={true}
-				duration={300}
+				duration={400}
 			>
 				Contact
 			</Link>
