@@ -25,7 +25,7 @@ const Project = ({ title, desc, website, source, video }) => {
 				<div className='project__text'></div>
 				<div className='project__btns'>
 					<a href={website} target='_blang' className='project__btn'>
-						View Website
+						Website
 					</a>
 					<a href={source} target='_blang' className='project__btn'>
 						Source Code

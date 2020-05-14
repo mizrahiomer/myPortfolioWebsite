@@ -13,7 +13,7 @@ const Header = () => {
 		<div id='header' className='header'>
 			<div className='header__text'>
 				<Typed
-					startDelay={2500}
+					startDelay={3000}
 					showCursor={false}
 					onComplete={() => {
 						setShow(true);
@@ -38,10 +38,9 @@ const Header = () => {
 					</a>
 				</Bounce>
 			</div>
-
 			{show && (
 				<Pulse forever>
-					<Link className='header__btn' to='about' spy={true} smooth={true} duration={400}>
+					<Link className='header__btn' to='about' spy={true} smooth={true} duration={450}>
 						<i className='fa fa-angle-down'></i>
 					</Link>
 				</Pulse>

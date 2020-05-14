@@ -49,14 +49,13 @@ $bg: #112d4e;
 
 .footer__contact {
 	cursor: pointer;
-	text-decoration: none;
 	color: inherit;
-	display: inline-block;
+	width: fit-content;
+	margin: 0 auto;
 	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .footer__contact:hover {
 	color: $primary;
-	text-decoration: none;
 	transform: scale(1.02);
 }
 

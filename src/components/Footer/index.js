@@ -9,7 +9,7 @@ const Footer = () => {
 	return (
 		<div id='footer' className='footer'>
 			<Fade>
-				<Link className='footer__btn' to='header' spy={true} smooth={true} duration={400}>
+				<Link className='footer__btn' to='header' spy={true} smooth={true} duration={450}>
 					<i className='fa fa-angle-up icon'></i>
 				</Link>
 				<div className='footer__title'>Contact Me</div>
@@ -18,11 +18,11 @@ const Footer = () => {
 				<div className=' footer__text'>
 					<span>So you think I'm the right developer for you ?</span>
 					<span>Get in touch !</span>
-					{/* <i className='far fa-envelope'></i>: */}
+
 					<a className='footer__contact' href={`tel:${data.phone}`}>
 						{data.phone}
 					</a>
-					{/* <i className='fas fa-phone'></i>: */}
+
 					<a className='footer__contact' href={`mailto:${data.email}`}>
 						{data.email}
 					</a>
